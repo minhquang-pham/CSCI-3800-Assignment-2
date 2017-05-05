@@ -1,0 +1,121 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CSCI 3800 Assignment 2",
+		"_postman_id": "c3ebd01f-4511-cb58-774b-e55ec8c98004",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Base",
+			"request": {
+				"url": "http://clockworklegacy-test.apigee.net/project2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get /Get",
+			"request": {
+				"url": " http://clockworklegacy-test.apigee.net/project2/gets",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get /Get with Parameter",
+			"request": {
+				"url": "http://clockworklegacy-test.apigee.net/project2/gets?namein=Quang",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid request to Get",
+			"request": {
+				"url": "http://clockworklegacy-test.apigee.net/project2/gets",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Post /Post",
+			"request": {
+				"url": "http://clockworklegacy-test.apigee.net/project2/posts",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid request to Post",
+			"request": {
+				"url": "http://clockworklegacy-test.apigee.net/project2/posts",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Put /Put",
+			"request": {
+				"url": "http://clockworklegacy-test.apigee.net/project2/puts",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid request to Put",
+			"request": {
+				"url": "http://clockworklegacy-test.apigee.net/project2/puts",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete /Delete",
+			"request": {
+				"url": "http://clockworklegacy-test.apigee.net/project2/deletes",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid request to Delete",
+			"request": {
+				"url": "http://clockworklegacy-test.apigee.net/project2/deletes",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
